@@ -1,2 +1,2 @@
 # Low-Level-Design
-Repository for various design patterns and design problems.
+Guide for Design patterns and Design problems.
