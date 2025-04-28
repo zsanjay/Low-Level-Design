@@ -10,6 +10,7 @@ public class Logger {
         config = new LoggerConfig(LogLevel.INFO , new ConsoleAppender());
     }
 
+    // Double Lock checking
     public static Logger getInstance() {
         if(logger == null) {
             synchronized (Logger.class) {

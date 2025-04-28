@@ -1,12 +1,8 @@
 package org.sanjay.lld.design.problems.logging_framework;
 
-import org.sanjay.lld.design.problems.logging_framework.LogLevel;
-import org.sanjay.lld.design.problems.logging_framework.Logger;
-import org.sanjay.lld.design.problems.logging_framework.LoggerConfig;
 import org.sanjay.lld.design.problems.logging_framework.logappender.FileAppender;
 
 public class LoggingFrameworkDemo {
-
     public static void main(String[] args) {
         Logger logger = Logger.getInstance();
 

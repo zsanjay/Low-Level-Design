@@ -42,7 +42,7 @@ public class StackOverflow {
         author.getAnswersGiven().add(answer);
         userTable.put(username, author);
         questionTable.get(question.getTitle()).getAnswers().add(answer);
-        List<Answer> answers = answerTable.get(author.getUsername());
+        List<Answer> answers = answerTable.get(question.getTitle());
         if(answers == null) {
             answers = new ArrayList<>();
         }
@@ -74,8 +74,7 @@ public class StackOverflow {
     }
 
     private Answer getAnswer(String username, Answer answer) {
-        Optional<Answer> optionalAnswer = answerTable.get(username).stream().filter(ans -> ans.getId().equals(answer.getId())).findFirst();
-        return optionalAnswer.orElse(null);
+        return answerTable.get(username).stream().filter(ans -> ans.getId().equals(answer.getId())).findFirst().orElse(null);
     }
 
     public void addVote(String username, Question question, Answer answer , boolean isUpvote, boolean isForQuestion) {

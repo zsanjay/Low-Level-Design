@@ -5,6 +5,7 @@ import org.sanjay.lld.design.problems.parkinglot.vehicletype.Vehicle;
 import java.util.ArrayList;
 import java.util.List;
 
+// Singleton Class
 public class ParkingLot {
     private static ParkingLot parkingLot;
     private final List<Level> levels;
