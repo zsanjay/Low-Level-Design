@@ -1,31 +1,30 @@
 # Low Level Design (LLD) Patterns and Problems
 
-📜 Overview
+## 📜 Overview
 This repository contains important low-level design patterns and detailed design solutions for classic system problems like LRU Cache, Logging System, StackOverflow, and Parking Lot.
 It serves as a guide for practicing object-oriented principles, system decomposition, and design pattern applications.
 
-🛠️ OOP Principles Covered
+## 🛠️ OOP Principles Covered
 
 SOLID principles
-
 Encapsulation, Abstraction, Polymorphism, Inheritance
-
 Design for interfaces, composition over inheritance
 
-📖 Design Patterns
+## 📖 Design Patterns
 
-Pattern	Description	Example
+#### Pattern	Description	Example
 
-Singleton	Ensure only one instance exists globally	Logger, Configuration Manager
-Factory	Create objects without exposing creation logic	Notification Factory (Email, SMS)
-Strategy	Define a family of algorithms and make them interchangeable	Payment Strategy (Card, Wallet, UPI)
-Observer	Notify dependent objects when state changes	Event systems, Notification updates
-Decorator	Add behavior to objects dynamically	Adding features to user accounts
-Adapter	Bridge two incompatible interfaces	Different payment gateway APIs
-Builder	Construct complex objects step by step	Building User Profile Object
+##### Singleton	Ensure only one instance exists globally	Logger, Configuration Manager
+##### Factory	Create objects without exposing creation logic	Notification Factory (Email, SMS)
+##### Strategy	Define a family of algorithms and make them interchangeable	Payment Strategy (Card, Wallet, UPI)
+##### Observer	Notify dependent objects when state changes	Event systems, Notification updates
+##### Decorator	Add behavior to objects dynamically	Adding features to user accounts
+##### Adapter	Bridge two incompatible interfaces	Different payment gateway APIs
+##### Builder	Construct complex objects step by step	Building User Profile Object
 
-🧩 Design Problems
-1. LRU Cache
+## 🧩 Design Problems
+
+### 1. LRU Cache
 Problem: Design a cache that evicts the least recently used item when full.
 
 Key Concepts:
@@ -44,7 +43,7 @@ Key Operations:
 
 get(key), put(key, value)
 
-2. Logging System
+### 2. Logging System
 Problem: Design a scalable logging system.
 
 Key Concepts:
@@ -65,7 +64,7 @@ LogAppender
 
 ConsoleAppender, FileAppender
 
-3. StackOverflow (Design Q&A Platform)
+### 3. StackOverflow (Design Q&A Platform)
 Problem: Design a simplified StackOverflow system.
 
 Key Concepts:
@@ -86,7 +85,7 @@ Vote
 
 Tag
 
-4. Parking Lot System
+### 4. Parking Lot System
 Problem: Design a parking lot with multiple types of spots and vehicles.
 
 Key Concepts:
@@ -112,7 +111,8 @@ Vehicle (Bike, Car, Truck)
 Ticket
 
 
-🚀 Best Practices
+## 🚀 Best Practices
+
 Always design for scalability and flexibility.
 
 Start with interfaces and abstract classes first.
@@ -123,12 +123,13 @@ Document class diagrams and sequence diagrams when possible.
 
 Think about extensibility (e.g., adding a new vehicle type in Parking Lot).
 
-📚 References
+## 📚 References
+
 Design Patterns: Elements of Reusable Object-Oriented Software (GoF)
 
 System Design Primer
 
-✍️ Contributions
+## ✍️ Contributions
 Feel free to raise PRs for:
 
 New Design Patterns
@@ -137,5 +138,5 @@ Additional system design problems
 
 Improved code examples
 
-📬 Contact
+## 📬 Contact
 For suggestions or queries, feel free to open an issue or reach out.
