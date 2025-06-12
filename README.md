@@ -1,25 +1,26 @@
-# Low Level Design (LLD) Repository in Java 
+# Low Level Design (LLD) in Java 
 
 Welcome to the **Low Level Design Repository**!  
 This repository contains Java implementations of core **Design Patterns** and real-world **LLD Problems** commonly asked in system design interviews at top tech companies.
 
 ---
 
-## 📁 Structure
+## Structure
 
-- `design.patterns`: Core design patterns grouped under **Creational**, **Structural**, and **Behavioral** categories.
-- `design.problems`: End-to-end implementation of real-world system design problems using OOP principles and patterns.
+- Design Patterns : Core design patterns grouped under **Creational**, **Structural**, and **Behavioral** categories.
+- Design Problems : End-to-end implementation of real-world system design problems using OOP principles and patterns.
 
 ---
 
-## 🎯 Design Patterns
+## Design Patterns
 
-### 🔨 Creational Patterns
+### Creational Patterns
 
 - [Abstract Factory](https://github.com/zsanjay/Low-Level-Design/tree/main/src/main/java/org/sanjay/lld/design/patterns/creational/abstractfactory)
 - [Builder](https://github.com/zsanjay/Low-Level-Design/tree/main/src/main/java/org/sanjay/lld/design/patterns/creational/builder)
 - [Factory](https://github.com/zsanjay/Low-Level-Design/tree/main/src/main/java/org/sanjay/lld/design/patterns/creational/factory)
 - [Prototype](https://github.com/zsanjay/Low-Level-Design/tree/main/src/main/java/org/sanjay/lld/design/patterns/creational/prototype)
+  
 - Singleton Variants:
   - [Singleton - Basic](https://github.com/zsanjay/Low-Level-Design/tree/main/src/main/java/org/sanjay/lld/design/patterns/creational/singleton)
   - [Double Lock](https://github.com/zsanjay/Low-Level-Design/tree/main/src/main/java/org/sanjay/lld/design/patterns/creational/singleton/doubleLock)
@@ -31,7 +32,7 @@ This repository contains Java implementations of core **Design Patterns** and re
 
 ---
 
-### 🧠 Behavioral Patterns
+### Behavioral Patterns
 
 - [Template Method](https://github.com/zsanjay/Low-Level-Design/tree/main/src/main/java/org/sanjay/lld/design/patterns/behavioral/template_method)
 - [Observer](https://github.com/zsanjay/Low-Level-Design/tree/main/src/main/java/org/sanjay/lld/design/patterns/behavioral/observer/observer)
@@ -45,7 +46,7 @@ This repository contains Java implementations of core **Design Patterns** and re
 
 ---
 
-### 🧱 Structural Patterns
+### Structural Patterns
 
 - [Proxy](https://github.com/zsanjay/Low-Level-Design/tree/main/src/main/java/org/sanjay/lld/design/patterns/structural/proxy)
 - [Decorator](https://github.com/zsanjay/Low-Level-Design/tree/main/src/main/java/org/sanjay/lld/design/patterns/structural/decorator)
@@ -56,7 +57,7 @@ This repository contains Java implementations of core **Design Patterns** and re
 
 ---
 
-## 🧩 Design Problems (System Design in Code)
+## Design Problems (System Design in Code)
 
 These projects demonstrate how to apply design principles and patterns in real-world system design problems.
 
@@ -70,25 +71,26 @@ These projects demonstrate how to apply design principles and patterns in real-w
 
 ---
 
-## 🛠️ Clone the repository
+## Clone the repository
 
    ```bash
    git clone https://github.com/zsanjay/Low-Level-Design.git
 ```
 ----
 
-## 📚 References
+## References
 
 Design Patterns: Elements of Reusable Object-Oriented Software (GoF)
 
 ----
 
-🤝 Contributions
+## Contributions
 
 Feel free to fork the repo, raise PRs, or suggest enhancements!
 If you find the repo useful, give it a ⭐ to show support!
 
 ----
 
-## 📬 Contact
-For suggestions or queries, feel free to open an issue or reach out.
+## Contact
+
+For questions or collaborations, connect via LinkedIn or open an issue.
