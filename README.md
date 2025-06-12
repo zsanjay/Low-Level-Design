@@ -70,9 +70,8 @@ These projects demonstrate how to apply design principles and patterns in real-w
 
 ---
 
-## 🛠️ How to Run
+## 🛠️ Clone the repository
 
-1. Clone the repository:
    ```bash
    git clone https://github.com/zsanjay/Low-Level-Design.git
    
