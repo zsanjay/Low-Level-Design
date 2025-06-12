@@ -1,4 +1,4 @@
-# Low Level Design (LLD) Repository in Java 🚀
+# Low Level Design (LLD) Repository in Java 
 
 Welcome to the **Low Level Design Repository**!  
 This repository contains Java implementations of core **Design Patterns** and real-world **LLD Problems** commonly asked in system design interviews at top tech companies.
