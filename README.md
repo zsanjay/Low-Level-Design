@@ -1,133 +1,86 @@
-# Low Level Design (LLD) Patterns and Problems
+# Low Level Design (LLD) Repository in Java 🚀
 
-## 📜 Overview
-This repository contains important low-level design patterns and detailed design solutions for classic system problems like LRU Cache, Logging System, StackOverflow, and Parking Lot.
-It serves as a guide for practicing object-oriented principles, system decomposition, and design pattern applications.
+Welcome to the **Low Level Design Repository**!  
+This repository contains Java implementations of core **Design Patterns** and real-world **LLD Problems** commonly asked in system design interviews at top tech companies.
 
-## 🛠️ OOP Principles Covered
+---
 
-SOLID principles
-Encapsulation, Abstraction, Polymorphism, Inheritance
-Design for interfaces, composition over inheritance
+## 📁 Structure
 
-## 📖 Design Patterns
+- `design.patterns`: Core design patterns grouped under **Creational**, **Structural**, and **Behavioral** categories.
+- `design.problems`: End-to-end implementation of real-world system design problems using OOP principles and patterns.
 
-#### Pattern	Description	Example
+---
 
-##### Singleton	Ensure only one instance exists globally	Logger, Configuration Manager
-##### Factory	Create objects without exposing creation logic	Notification Factory (Email, SMS)
-##### Strategy	Define a family of algorithms and make them interchangeable	Payment Strategy (Card, Wallet, UPI)
-##### Observer	Notify dependent objects when state changes	Event systems, Notification updates
-##### Decorator	Add behavior to objects dynamically	Adding features to user accounts
-##### Adapter	Bridge two incompatible interfaces	Different payment gateway APIs
-##### Builder	Construct complex objects step by step	Building User Profile Object
+## 🎯 Design Patterns
 
-## 🧩 Design Problems
+### 🔨 Creational Patterns
 
-### 1. LRU Cache
-Problem: Design a cache that evicts the least recently used item when full.
+- [Abstract Factory](https://github.com/zsanjay/Low-Level-Design/tree/main/src/main/java/org/sanjay/lld/design/patterns/creational/abstractfactory)
+- [Builder](https://github.com/zsanjay/Low-Level-Design/tree/main/src/main/java/org/sanjay/lld/design/patterns/creational/builder)
+- [Factory](https://github.com/zsanjay/Low-Level-Design/tree/main/src/main/java/org/sanjay/lld/design/patterns/creational/factory)
+- [Prototype](https://github.com/zsanjay/Low-Level-Design/tree/main/src/main/java/org/sanjay/lld/design/patterns/creational/prototype)
+- Singleton Variants:
+  - [Singleton - Basic](https://github.com/zsanjay/Low-Level-Design/tree/main/src/main/java/org/sanjay/lld/design/patterns/creational/singleton)
+  - [Double Lock](https://github.com/zsanjay/Low-Level-Design/tree/main/src/main/java/org/sanjay/lld/design/patterns/creational/singleton/doubleLock)
+  - [Enum Singleton](https://github.com/zsanjay/Low-Level-Design/tree/main/src/main/java/org/sanjay/lld/design/patterns/creational/singleton/enumSingleton)
+  - [Thread Safe](https://github.com/zsanjay/Low-Level-Design/tree/main/src/main/java/org/sanjay/lld/design/patterns/creational/singleton/threadsafe)
+  - [Bill Pugh](https://github.com/zsanjay/Low-Level-Design/tree/main/src/main/java/org/sanjay/lld/design/patterns/creational/singleton/billPugh)
+  - [Lazy Initialization](https://github.com/zsanjay/Low-Level-Design/tree/main/src/main/java/org/sanjay/lld/design/patterns/creational/singleton/lazy)
+  - [Eager Initialization](https://github.com/zsanjay/Low-Level-Design/tree/main/src/main/java/org/sanjay/lld/design/patterns/creational/singleton/eager)
 
-Key Concepts:
+---
 
-Doubly Linked List for ordering
+### 🧠 Behavioral Patterns
 
-HashMap for O(1) access
+- [Template Method](https://github.com/zsanjay/Low-Level-Design/tree/main/src/main/java/org/sanjay/lld/design/patterns/behavioral/template_method)
+- [Observer](https://github.com/zsanjay/Low-Level-Design/tree/main/src/main/java/org/sanjay/lld/design/patterns/behavioral/observer/observer)
+- [Memento](https://github.com/zsanjay/Low-Level-Design/tree/main/src/main/java/org/sanjay/lld/design/patterns/behavioral/memento)
+- [State](https://github.com/zsanjay/Low-Level-Design/tree/main/src/main/java/org/sanjay/lld/design/patterns/behavioral/state)
+- [Iterator](https://github.com/zsanjay/Low-Level-Design/tree/main/src/main/java/org/sanjay/lld/design/patterns/behavioral/iterator)
+- [Chain of Responsibility](https://github.com/zsanjay/Low-Level-Design/tree/main/src/main/java/org/sanjay/lld/design/patterns/behavioral/chainofresponsibility)
+- [Command](https://github.com/zsanjay/Low-Level-Design/tree/main/src/main/java/org/sanjay/lld/design/patterns/behavioral/command)
+- [Mediator](https://github.com/zsanjay/Low-Level-Design/tree/main/src/main/java/org/sanjay/lld/design/patterns/behavioral/mediator)
+- [Strategy](https://github.com/zsanjay/Low-Level-Design/tree/main/src/main/java/org/sanjay/lld/design/patterns/behavioral/strategy)
 
-Classes:
+---
 
-LRUCache
+### 🧱 Structural Patterns
 
-Node
+- [Proxy](https://github.com/zsanjay/Low-Level-Design/tree/main/src/main/java/org/sanjay/lld/design/patterns/structural/proxy)
+- [Decorator](https://github.com/zsanjay/Low-Level-Design/tree/main/src/main/java/org/sanjay/lld/design/patterns/structural/decorator)
+- [Facade](https://github.com/zsanjay/Low-Level-Design/tree/main/src/main/java/org/sanjay/lld/design/patterns/structural/facade)
+- [Adapter](https://github.com/zsanjay/Low-Level-Design/tree/main/src/main/java/org/sanjay/lld/design/patterns/structural/adapter)
+- [Composite](https://github.com/zsanjay/Low-Level-Design/tree/main/src/main/java/org/sanjay/lld/design/patterns/structural/composite)
+- [Flyweight](https://github.com/zsanjay/Low-Level-Design/tree/main/src/main/java/org/sanjay/lld/design/patterns/structural/flyweight)
 
-Key Operations:
+---
 
-get(key), put(key, value)
+## 🧩 Design Problems (System Design in Code)
 
-### 2. Logging System
-Problem: Design a scalable logging system.
+These projects demonstrate how to apply design principles and patterns in real-world system design problems.
 
-Key Concepts:
+- [Movie Ticket Booking System](https://github.com/zsanjay/Low-Level-Design/tree/main/src/main/java/org/sanjay/lld/design/problems/movie_ticket_booking_system)
+- [Elevator System](https://github.com/zsanjay/Low-Level-Design/tree/main/src/main/java/org/sanjay/lld/design/problems/elevatorsystem)
+- [Rate Limiter](https://github.com/zsanjay/Low-Level-Design/tree/main/src/main/java/org/sanjay/lld/design/problems/ratelimiter)
+- [Logging Framework](https://github.com/zsanjay/Low-Level-Design/tree/main/src/main/java/org/sanjay/lld/design/problems/logging_framework)
+- [LRU Cache](https://github.com/zsanjay/Low-Level-Design/tree/main/src/main/java/org/sanjay/lld/design/problems/lru_cache)
+- [StackOverflow Clone](https://github.com/zsanjay/Low-Level-Design/tree/main/src/main/java/org/sanjay/lld/design/problems/stackoverflow)
+- [Parking Lot](https://github.com/zsanjay/Low-Level-Design/tree/main/src/main/java/org/sanjay/lld/design/problems/parkinglot)
 
-Multiple log levels (INFO, ERROR, DEBUG)
+---
 
-Patterns Used:
+## 🛠️ How to Run
 
-Singleton (Logger instance)
-
-Strategy (Different logging destinations: file, console, database)
-
-Classes:
-
-Logger
-
-LogAppender
-
-ConsoleAppender, FileAppender
-
-### 3. StackOverflow (Design Q&A Platform)
-Problem: Design a simplified StackOverflow system.
-
-Key Concepts:
-
-Users, Questions, Answers, Comments, Votes
-
-Tagging system
-
-Search functionality
-
-Classes:
-
-User
-
-Question, Answer, Comment
-
-Vote
-
-Tag
-
-### 4. Parking Lot System
-Problem: Design a parking lot with multiple types of spots and vehicles.
-
-Key Concepts:
-
-Different types of vehicles: Bike, Car, Truck
-
-Patterns Used:
-
-Singleton
-
-Strategy (Vehicle type)
-
-Classes:
-
-ParkingLot
-
-Level
-
-ParkingSpot
-
-Vehicle (Bike, Car, Truck)
-
-Ticket
-
-
-## 🚀 Best Practices
-
-Always design for scalability and flexibility.
-
-Start with interfaces and abstract classes first.
-
-Apply appropriate design patterns where natural, not forced.
-
-Document class diagrams and sequence diagrams when possible.
-
-Think about extensibility (e.g., adding a new vehicle type in Parking Lot).
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/zsanjay/Low-Level-Design.git
+   
+----
 
 ## 📚 References
 
 Design Patterns: Elements of Reusable Object-Oriented Software (GoF)
-
-System Design Primer
 
 ## ✍️ Contributions
 Feel free to raise PRs for:
