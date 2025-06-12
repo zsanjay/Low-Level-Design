@@ -74,21 +74,21 @@ These projects demonstrate how to apply design principles and patterns in real-w
 
    ```bash
    git clone https://github.com/zsanjay/Low-Level-Design.git
-   
+```
 ----
 
 ## 📚 References
 
 Design Patterns: Elements of Reusable Object-Oriented Software (GoF)
 
-## ✍️ Contributions
-Feel free to raise PRs for:
+----
 
-New Design Patterns
+🤝 Contributions
 
-Additional system design problems
+Feel free to fork the repo, raise PRs, or suggest enhancements!
+If you find the repo useful, give it a ⭐ to show support!
 
-Improved code examples
+----
 
 ## 📬 Contact
 For suggestions or queries, feel free to open an issue or reach out.
