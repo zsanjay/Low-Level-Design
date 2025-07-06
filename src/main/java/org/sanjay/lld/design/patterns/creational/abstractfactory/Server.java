@@ -1,7 +1,6 @@
 package org.sanjay.lld.design.patterns.creational.abstractfactory;
 
 public class Server extends Computer {
- 
     private String ram;
     private String hdd;
     private String cpu;
